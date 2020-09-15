@@ -1,0 +1,39 @@
+.main {
+  max-width: 1000px;
+}
+
+.header-topline {
+  display: flex;
+}
+
+.header-bottomline {
+  display: flex;
+}
+
+.contact-info {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  background: blue;
+  margin-right: 50px;
+}
+
+.history {
+  display: flex;
+  flex-direction: column;
+}
+
+.main-wrapper {
+  display: flex;
+}
+.headshot {
+  width: 100px;
+  height: 100px;
+  margin-right: 50px;
+}
+
+.header-bottomline > span {
+  margin: auto;
+  margin-left: 100px;
+}
