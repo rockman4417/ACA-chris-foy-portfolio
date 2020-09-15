@@ -1,0 +1,79 @@
+/* Wrapped everything in a main div*/
+.main {
+  width: auto;
+  height: auto;
+}
+
+/* Seperated the conent between header and footer classes */
+.header {
+  background: turquoise;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 50%;
+  font-size: xx-large;
+  color: white;
+}
+
+.footer {
+  display: flex;
+  background: #292b2e;
+  color: white;
+  justify-content: space-around;
+  flex-direction: row;
+  align-items: center;
+}
+
+.boxes {
+  display: flex;
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+/* Added span elements for each of the three colored bars */
+.bar1 {
+  display: inline-block;
+  background: lightskyblue;
+  width: 200px;
+  height: 30px;
+}
+
+.bar2 {
+  background: orangered;
+  width: 200px;
+  height: 30px;
+}
+
+.bar3 {
+  background: turquoise;
+  width: 200px;
+  height: 30px;
+}
+
+/* Added classes for each of the three article elements */
+.box1 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  width: 200px;
+}
+
+.box2 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  width: 200px;
+}
+
+.box3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+  width: 200px;
+}
