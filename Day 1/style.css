@@ -10,6 +10,12 @@ body {
   height: 275px;
   margin: 1% auto;
   margin-left: 350px;
+  transition: all 0.3s ease-in-out;
+  border-radius: 50%;
+}
+
+.logo:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
 }
 
 header {
@@ -36,19 +42,27 @@ main {
   opacity: 0.75;
   border-width: 5px;
   padding: 20px;
+  color: whitesmoke;
+  transition: all 0.3s ease-in-out;
 }
 
 .has-border:hover {
   opacity: 1;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
 }
 
 #profile-pic {
   width: auto;
-  height: 400px;
+  height: 500px;
   border-radius: 5%;
   margin: 2% auto;
   border: 2px solid #2ee40a;
   border-width: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+#profile-pic:hover {
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
 }
 
 h1 {
@@ -94,7 +108,7 @@ a {
   text-align: center;
   letter-spacing: 11px;
   font-style: italic;
-  color: #094744;
+
   font-weight: 500;
 }
 
@@ -108,8 +122,11 @@ a {
   border: 2px solid #08a4d8;
   background: rgba(71, 172, 212, 0.75);
   opacity: 0.75;
+  color: black;
+  transition: all 0.3s ease-in-out;
 }
 
 .portfolio-btn:hover {
   opacity: 1;
+  box-shadow: 0 5px 15px rgba(145, 92, 182, 0.4);
 }
